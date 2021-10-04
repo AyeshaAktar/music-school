@@ -1,9 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <h1>Welcome To Our Music School </h1>
       <nav>
         <NavLink to="/home">Home</NavLink>
