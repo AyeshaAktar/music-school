@@ -17,10 +17,10 @@ const Footer = () => {
         <button className="btn btn-light rounded-circle">
           <FaFacebookF />
         </button>
-        <button className="btn btn-primary rounded-circle">
+        <button className="btn btn-light rounded-circle">
           <AiOutlineTwitter />
         </button>
-        <button className="btn btn-primary rounded-circle">
+        <button className="btn btn-light rounded-circle">
           <BsYoutube />
         </button>
       </div>

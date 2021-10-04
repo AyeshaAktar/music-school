@@ -8,7 +8,7 @@ const Header = () => {
       <div className="banner">
         <div className="banner-bg text-white d-flex align-items-center justify-content-center">
           <div>
-            <h1 className="school-name">MELODY</h1>
+            <h1 className="school-name text-warning">MELODY</h1>
             <h2 className="school-name">Music School</h2>
           </div>
         </div>

@@ -8,7 +8,7 @@ const Courses = (props) => {
       <div className="card course-card">
         <img src={img} className="card-img-top course-image" alt="..." />
         <div className="card-body text-start">
-          <h2 className="card-title">{courseName}</h2>
+          <h2 className="card-title text-warning">{courseName}</h2>
           <p className="card-text">
             <strong>Course Duration:</strong> {CourseDuration}
           </p>
