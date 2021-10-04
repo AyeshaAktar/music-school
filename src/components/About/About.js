@@ -25,7 +25,7 @@ const About = () => {
         <h2>Teachers</h2>
         <div className="row row-cols-1 row-cols-md-3 g-4 m-5">
           <div className="col">
-            <div className=" border-0 text-center">
+            <div className=" border-0">
               <div className="d-flex justify-content-center">
                 <img
                   src={teacher1}
@@ -33,7 +33,8 @@ const About = () => {
                   alt="..."
                 />
               </div>
-              <h5 className="d-flex">Terry Barton</h5>
+
+              <h5 className="">Terry Barton</h5>
             </div>
           </div>
           <div className="col">

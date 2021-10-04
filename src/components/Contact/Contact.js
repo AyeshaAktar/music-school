@@ -1,4 +1,6 @@
 import React from "react";
+import { GoLocation } from "react-icons/go";
+import { AiOutlineContacts, AiOutlineClockCircle } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -8,22 +10,31 @@ const Contact = () => {
         <div className="col-md-4 border-sm-0 border-end">
           <div>
             <h4>Address</h4>
-            <p>110E 16th St</p>
-            <p>New York, NY</p>
+            <GoLocation />
+            <div>
+              <p>110E 16th St</p>
+              <p>New York, NY</p>
+            </div>
           </div>
         </div>
         <div className="col-md-4 border-sm-0 border-end">
           <div>
             <h4>Contact</h4>
-            <p>melody123@gmail.com</p>
-            <p>17871234567</p>
+            <AiOutlineContacts />
+            <div>
+              <p>melody123@gmail.com</p>
+              <p>17871234567</p>
+            </div>
           </div>
         </div>
         <div className="col-md-4">
           <div>
             <h4>Open hour</h4>
-            <p>Monday - Friday: 12pm - 8pm</p>
-            <p>Saturday: 10am - 2pm</p>
+            <AiOutlineClockCircle />
+            <div>
+              <p>Monday - Friday: 12pm - 8pm</p>
+              <p>Saturday: 10am - 2pm</p>
+            </div>
           </div>
         </div>
       </div>
