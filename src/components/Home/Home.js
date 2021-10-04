@@ -1,16 +1,21 @@
 import React, { useEffect, useState } from "react";
+import Courses from "../Courses/Courses";
+import fakeData from "../../data/fakedata.json";
 
 const Home = () => {
-  const [course, setCourse] = useState([]);
+  const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("./fakedata.json")
-      .then((res) => res.json())
-      .then((data) => setCourse(data));
+    setCourses(fakeData);
   }, []);
+  // console.log(fakeData);
   return (
-    <div>
-      <h2>This is home</h2>
+    <div className="container">
+      <div className="row">
+        {courses.slice(0, 4).map((course) => (
+          <Courses key={course.id} course={course}></Courses>
+        ))}
+      </div>
     </div>
   );
 };

@@ -1,5 +1,20 @@
+.banner {
+  background-image: url("../../image/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+.banner-bg {
+  background-color: rgba(0, 0, 0, 0.603);
+  height: 100%;
+  width: 100%;
+}
+.school-name {
+  font-size: 100px;
+}
 .header nav {
-  background-color: black;
+  background-color: crimson;
   line-height: 40px;
 }
 .header nav a {
